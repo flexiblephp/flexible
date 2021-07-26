@@ -1,0 +1,30 @@
+{
+  "name": "flexible/flexible",
+  "type": "project",
+  "description": "The Flexible PHP Framework.",
+  "keywords": [
+    "framework",
+    "php",
+    "fast",
+    "components"
+  ],
+  "homepage": "https://flexiblephp.github.io/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marc Guinea",
+      "email": "marcguinea+flexible@gmail.com",
+      "homepage": "https://marcguinea.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
