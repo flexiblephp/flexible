@@ -11,11 +11,10 @@ build:
   environment:
     php:
       version: 7.4
-  nodes:
-    coverage:
-      tests:
-        override:
-          - command: vendor/bin/phpunit --coverage-clover=clover.xml
-            coverage:
-              file: clover.xml
-              format: php-clover
+  tests:
+    override:
+      -
+        command: vendor/bin/phpunit --coverage-clover=clover.xml
+        coverage:
+          file: clover.xml
+          format: php-clover
